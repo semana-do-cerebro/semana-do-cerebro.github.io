@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>SC 2023</title>
+  <link rel="Stylesheet" href="./style.css">
+  <script type="module" src="script.js"></script>
+
+
+</head>
+
+
+
+<body>
+  <script>
+    var i = setInterval(function () {
+
+      clearInterval(i);
+
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("conteudo").style.display = "inline";
+
+    }, 6000);
+  </script>
+  <div id="loading" style="display: block">
+    <center>
+    <img src="Images/preloader.gif" style="width: 60vh;height:60vh; margin-top: 150px; text-align: center;"  />
+    </center>
+  </div>
+
+
+  <div id="conteudo" style="display: none">
+    
+    
+      <style>
+        header {
+          background-image: url(./Images/Background.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 90vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+      </style>
+    <header>
+
+      <div id="modelDiv" style='text-align: center; position: absolute; top: 45%;'></div>
+    </header>
+
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#hey">SOBRE</a></li>
+        <li><a href="#cool">PROGRAMAÇÃO</a></li>
+        <img src="Images/icon.png" style=" margin-top: 8px; width: 100px; height: 100px; background-color: #0B264E; border: 2px solid #ffffff; border-radius: 50%;"></img>
+        <li><a href="#truth">CONTATO</a></li>
+        <li><a href="#all-css">MAIS</a></li>
+      </ul>
+      <div class="logo"></div>
+    </nav>
+
+    <article class="container">
+      <section id="hey">
+        <h1>SOBRE</h1>
+        <p style="  "> <img src="Images/Dana_Fundation.svg" style=" position: relative; height: 300px; float: right; display: inline-block"></img>A <a href="https://www.brainawareness.org/" style="color: #EC6D12;">International Brain Week (SIC)</a> é uma campanha internacional promovida pela Dana Foundation, que tem como foco promover o encontro entre as neurociências e a sociedade.
+O evento acontece há 27 anos no mês de março e já marcou presença em cerca de 120 países, estando em diversos estados do Brasil desde 2010.
+No ano de 2023, a SIC estará entre os dias 13 e 19 de março. Durante esses dias, teremos ciclos de palestras, mesas redondas, apresentação de vídeos e filmes com discussão de especialistas, feiras itinerantes com explicações sobre o funcionamento do cérebro, suas doenças e distúrbios, além de experimentos com o cérebro e demonstrações de tecnologias relacionadas à atividade cerebral. e comportamento. Os eventos centrais geralmente são realizados na(s) instituição(ões) organizadora(s) e os eventos satélites são realizados em outras instituições, universidades, faculdades, escolas e shoppings.
+        </p>
+      </section>
+
+      <section id="cool">
+        <h1>INSCRIÇÃO</h1>
+        <p style="text-align: center;">Inscreva-se no evento e ganhe novas experiências </p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvbcWSxtqwInRaJy8esFNd-ve8pFKB8oji6gUwccQdIxZgfg/viewform?embedded=true" width="640" height="926" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+      </section>
+
+      <section id="truth">
+        <h1>LINKS RELEVANTES</h1>
+        <p>Pretendo colocar um banner de imagens com efeitos de visualização </p>
+      </section>
+
+      <section id="all-css">
+        <h1>CONTATO</h1>
+        <p>Pretendo colocar o rodapé da página nesta secção</p>
+      </section>
+
+
+      <section>
+        <h1>Rodapé com contato</h1>
+        <p>The International Brain Week (SIC) is an international campaign promoted by the Dana Foundation, which
+          focuses on promoting the meeting between neurosciences and society.
+          The event takes place for 27 years in March and has already been present in about 120 countries, being in
+          several states of Brazil since 2010.
+          In the year 2023, SIC will be between March 13th and 19th. During these days, we will have cycles of lectures,
+          round tables, presentation of videos and films with discussion by specialists, itinerant fairs with
+          explanations about the functioning of the brain, its diseases and disorders, in addition to experiments with
+          the brain and demonstrations of technologies related to brain activity. and behavior. Central events are
+          usually held at the organizing institution(s) and satellite events are held at other institutions,
+          universities, colleges, schools and malls. </p>
+      </section>
+
+    </article>
+  </div>
+
+
+</body>
+
+</html>
